@@ -26,7 +26,7 @@ public class StudentRestService
 	{
 		List<Student> list = studentDAO.list();
 		if(list.isEmpty())
-			log.info("Empty list of student");
+			log.info("Empty list of students");
 		return null;
 	}
 }
